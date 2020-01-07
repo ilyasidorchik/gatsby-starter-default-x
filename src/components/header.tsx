@@ -1,11 +1,11 @@
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from 'gatsby'
+import React from 'react'
 
 interface IHeaderProps {
   siteTitle?: string
 }
 
-const Header = ({ siteTitle = "" }: IHeaderProps) => (
+const Header = ({ siteTitle = '' }: IHeaderProps) => (
   <header
     style={{
       background: `rebeccapurple`,
