@@ -30,11 +30,10 @@
     "typescript": "^3.7.4"
   },
   "devDependencies": {
-    "csscomb": "^4.3.0",
     "husky": "^4.0.0",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1"
+    "csscomb": "^4.3.0",
+    "prettier": "^1.19.1"
   },
   "keywords": [
     "gatsby"
@@ -58,7 +57,17 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "!(_*).scss": [
+      "csscomb --tty-mode",
+      "git add"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
