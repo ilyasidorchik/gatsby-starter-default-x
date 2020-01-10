@@ -13,7 +13,7 @@ Kick off your project with this extended boilerplate. This starter ships with th
 ## 🚀 Quick start
 
 ```shell
-    hub clone https://github.com/ilyasidorchik/gatsby-starter-default-x my-blazing-fast-app
+    git clone https://github.com/ilyasidorchik/gatsby-starter-default-x my-blazing-fast-app
     cd my-blazing-fast-app
     yarn
     yarn start
