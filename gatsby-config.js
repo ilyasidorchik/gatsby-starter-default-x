@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby Default Starter X`,
+    description: `Kick off your project with this extended boilerplate. This starter ships with the main Gatsby configuration, Typescript and SCSS. Also you won’t be puzzled with clean consistent code because Husky library beautifies bad commits by using Prettier and CSScomb.`,
+    author: `@ilyasidorchik`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
