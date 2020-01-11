@@ -8,7 +8,7 @@ interface IHeaderProps {
 const Header = ({ siteTitle = '' }: IHeaderProps) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#663399`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -23,7 +23,7 @@ const Header = ({ siteTitle = '' }: IHeaderProps) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#fff`,
             textDecoration: `none`,
           }}
         >

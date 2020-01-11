@@ -31,10 +31,13 @@
     "webpack": "^4.41.5"
   },
   "devDependencies": {
-    "csscomb": "^4.3.0",
     "husky": "^4.0.0",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "stylelint": "^12.0.1",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-order": "^4.0.0"
   },
   "keywords": [
     "gatsby"
@@ -62,12 +65,12 @@
     }
   },
   "lint-staged": {
-    "!(_*).scss": [
-      "csscomb --tty-mode",
-      "git add"
-    ],
     "src/**/*.{js,jsx,ts,tsx,json}": [
       "prettier --write",
+      "git add"
+    ],
+    "!(_*).scss": [
+      "stylelint --fix --config ./.stylelintrc",
       "git add"
     ]
   }
