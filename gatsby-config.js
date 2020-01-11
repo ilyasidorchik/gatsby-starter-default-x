@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter X`,
-    description: `Kick off your project with this extended boilerplate. This starter ships with the main Gatsby configuration, Typescript and SCSS. Also you won’t be puzzled with clean consistent code because Husky library beautifies bad commits by using Prettier and CSScomb.`,
+    description: `Kick off your project with this extended boilerplate. This starter ships with the main Gatsby configuration, Typescript and SCSS. Also you won’t be puzzled with clean consistent code because Husky library beautifies bad commits by using Prettier and Stylelint.`,
     author: `@ilyasidorchik`,
   },
   plugins: [

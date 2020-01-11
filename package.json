@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default-x",
   "private": true,
   "description": "An extended starter to get up and developing quickly with Gatsby",
-  "version": "1.0",
+  "version": "2.0",
   "author": "Ilya Sidorchik <ilya@sidorchik.ru>",
   "dependencies": {
     "@babel/core": "^7.7.7",

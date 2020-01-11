@@ -8,7 +8,7 @@
   Gatsby’s default starter X
 </h1>
 
-Kick off your project with this extended boilerplate. This starter ships with the main Gatsby configuration, Typescript and SCSS. Also you won't be puzzled with clean consistent code because Husky library beautifies bad commits by using Prettier and CSScomb.
+Kick off your project with this extended boilerplate. This starter ships with the main Gatsby configuration, Typescript and SCSS. Also you won't be puzzled with clean consistent code because Husky library beautifies bad commits by using Prettier and Stylelint.
 
 ## 🚀 Quick start
 
