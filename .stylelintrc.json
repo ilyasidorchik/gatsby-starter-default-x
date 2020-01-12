@@ -37,6 +37,19 @@
     "declaration-block-no-duplicate-properties": true,
     "value-list-max-empty-lines": 0,
     "no-eol-whitespace": true,
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": [
+          "font-smoothing",
+          "font-feature-settings",
+          "text-size-adjust",
+          "text-decoration-skip",
+          "background-clip",
+          "appearance"
+        ]
+      }
+    ],
     "order/properties-order": [
       [
         {
