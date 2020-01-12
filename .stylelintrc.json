@@ -1,12 +1,42 @@
 {
-  "extends": ["stylelint-config-recommended", "stylelint-config-prettier"],
+  "extends": ["stylelint-config-prettier"],
   "plugins": ["stylelint-order"],
   "rules": {
+    "max-line-length": 80,
     "indentation": 2,
     "string-quotes": "double",
     "at-rule-empty-line-before": "always",
     "shorthand-property-no-redundant-values": true,
     "color-named": "never",
+    "no-extra-semicolons": true,
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "selector-type-case": "lower",
+    "property-case": "lower",
+    "value-keyword-case": "lower",
+    "number-leading-zero": "always",
+    "number-no-trailing-zeros": true,
+    "length-zero-no-unit": true,
+    "no-empty-source": true,
+    "selector-max-empty-lines": 0,
+    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-newline-before": "never-multi-line",
+    "function-comma-space-before": "never",
+    "function-comma-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "declaration-empty-line-before": [
+      "never",
+      { "ignore": ["after-declaration", "inside-single-line-block"] }
+    ],
+    "block-closing-brace-empty-line-before": "never",
+    "block-closing-brace-newline-after": "always",
+    "no-missing-end-of-source-newline": true,
+    "rule-empty-line-before": ["always", { "except": ["first-nested"] }],
+    "max-empty-lines": 1,
+    "declaration-block-no-duplicate-properties": true,
+    "value-list-max-empty-lines": 0,
+    "no-eol-whitespace": true,
     "order/properties-order": [
       [
         {

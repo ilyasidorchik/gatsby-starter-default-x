@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default-x",
   "private": true,
   "description": "An extended starter to get up and developing quickly with Gatsby",
-  "version": "2.0",
+  "version": "2.1",
   "author": "Ilya Sidorchik <ilya@sidorchik.ru>",
   "dependencies": {
     "@babel/core": "^7.7.7",
@@ -36,7 +36,6 @@
     "prettier": "^1.19.1",
     "stylelint": "^12.0.1",
     "stylelint-config-prettier": "^8.0.0",
-    "stylelint-config-recommended": "^3.0.0",
     "stylelint-order": "^4.0.0"
   },
   "keywords": [
