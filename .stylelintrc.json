@@ -40,6 +40,12 @@
 		"declaration-block-no-duplicate-properties": true,
 		"value-list-max-empty-lines": 0,
 		"no-eol-whitespace": true,
+		"selector-class-pattern": [
+			"^[A-Z][a-z0-9]*([A-Z][a-z0-9]+)*(-[A-Z][a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?$",
+			{
+				"resolveNestedSelectors": true
+			}
+		],
 		"property-no-vendor-prefix": [
 			true,
 			{
