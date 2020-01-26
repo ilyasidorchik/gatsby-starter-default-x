@@ -29,6 +29,7 @@
       "never",
       { "ignore": ["after-declaration", "inside-single-line-block"] }
     ],
+    "block-opening-brace-space-before": "always",
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always",
     "no-missing-end-of-source-newline": true,
