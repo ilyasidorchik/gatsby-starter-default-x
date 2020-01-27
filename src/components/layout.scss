@@ -1,4 +1,4 @@
-html {
+.Html {
 	box-sizing: border-box;
 	overflow-y: scroll;
 
@@ -7,7 +7,7 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 
-body {
+.Page {
 	margin: 0;
 
 	font-weight: normal;
@@ -21,6 +21,13 @@ body {
 	-ms-font-feature-settings: "kern", "liga", "clig", "calt";
 	font-feature-settings: "kern", "liga", "clig", "calt";
 	font-kerning: normal;
+}
+
+.Layout {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1.0875rem 1.45rem;
+	padding-top: 0;
 }
 
 * {
@@ -88,16 +95,6 @@ strong {
 
 dfn {
 	font-style: italic;
-}
-
-.class {
-	p {
-		color: #000;
-	}
-
-	b {
-		color: #ff0;
-	}
 }
 
 mark {
