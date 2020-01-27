@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FC } from 'react'
 import { Link } from 'gatsby'
 import { cn } from '@bem-react/classname'
 
@@ -8,7 +8,7 @@ interface IHeaderProps {
 	siteTitle?: string
 }
 
-const Header = ({ siteTitle = '' }: IHeaderProps) => {
+const Header: FC<IHeaderProps> = ({ siteTitle = '' }) => {
 	const header = cn('Header')
 
 	return (
