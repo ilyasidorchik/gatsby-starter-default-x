@@ -2,4 +2,19 @@
 	margin-bottom: 1.45rem;
 
 	background: #663399;
+
+	&-Content {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 1.45rem 1.0875rem;
+	}
+
+	&-Title {
+		margin: 0;
+	}
+
+	&-Link {
+		color: #fff;
+		text-decoration: none;
+	}
 }

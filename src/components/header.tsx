@@ -9,21 +9,9 @@ interface IHeaderProps {
 
 const Header = ({ siteTitle = '' }: IHeaderProps) => (
 	<header className="Header">
-		<div
-			style={{
-				margin: `0 auto`,
-				maxWidth: 960,
-				padding: `1.45rem 1.0875rem`,
-			}}
-		>
-			<h1 style={{ margin: 0 }}>
-				<Link
-					to="/"
-					style={{
-						color: `#fff`,
-						textDecoration: `none`,
-					}}
-				>
+		<div className="Header-Content">
+			<h1 className="Header-Title">
+				<Link className="Header-Link" to="/">
 					{siteTitle}
 				</Link>
 			</h1>
