@@ -35,7 +35,10 @@
 		"block-closing-brace-empty-line-before": "never",
 		"block-closing-brace-newline-after": "always",
 		"no-missing-end-of-source-newline": true,
-		"rule-empty-line-before": ["always", { "except": ["first-nested"] }],
+		"rule-empty-line-before": [
+			"always",
+			{ "except": ["first-nested", "after-single-line-comment"] }
+		],
 		"max-empty-lines": 1,
 		"declaration-block-no-duplicate-properties": true,
 		"value-list-max-empty-lines": 0,
