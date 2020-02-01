@@ -5,7 +5,12 @@
 		"max-line-length": 80,
 		"indentation": "tab",
 		"string-quotes": "double",
-		"at-rule-empty-line-before": "always",
+		"at-rule-empty-line-before": [
+			"always",
+			{
+				"except": ["first-nested"]
+			}
+		],
 		"shorthand-property-no-redundant-values": true,
 		"color-named": "never",
 		"no-extra-semicolons": true,
