@@ -40,7 +40,10 @@
 			{ "except": ["first-nested", "after-single-line-comment"] }
 		],
 		"max-empty-lines": 1,
-		"declaration-block-no-duplicate-properties": true,
+		"declaration-block-no-duplicate-properties": [
+			true,
+			{ "ignore": ["consecutive-duplicates-with-different-values"] }
+		],
 		"value-list-max-empty-lines": 0,
 		"no-eol-whitespace": true,
 		"selector-class-pattern": [
