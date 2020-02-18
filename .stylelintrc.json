@@ -2,63 +2,15 @@
 	"extends": ["stylelint-config-prettier"],
 	"plugins": ["stylelint-order"],
 	"rules": {
-		"max-line-length": 80,
-		"indentation": "tab",
-		"string-quotes": "double",
-		"at-rule-empty-line-before": [
-			"always",
-			{
-				"except": ["first-nested"]
-			}
-		],
-		"shorthand-property-no-redundant-values": true,
-		"color-named": "never",
-		"no-extra-semicolons": true,
-		"declaration-block-semicolon-newline-after": "always",
-		"declaration-block-semicolon-space-before": "never",
-		"declaration-block-trailing-semicolon": "always",
-		"selector-type-case": "lower",
-		"property-case": "lower",
-		"value-keyword-case": "lower",
-		"number-leading-zero": "always",
-		"number-no-trailing-zeros": true,
-		"length-zero-no-unit": true,
-		"no-empty-source": true,
-		"selector-max-empty-lines": 0,
-		"selector-list-comma-newline-after": "always",
-		"selector-list-comma-newline-before": "never-multi-line",
-		"function-url-quotes": "always",
-		"function-comma-space-before": "never",
-		"function-comma-space-after": "always",
-		"declaration-colon-space-before": "never",
-		"declaration-colon-space-after": "always",
-		"declaration-empty-line-before": [
-			"never",
-			{ "ignore": ["after-declaration", "inside-single-line-block"] }
-		],
-		"block-opening-brace-space-before": "always",
-		"block-closing-brace-newline-before": "always",
-		"block-closing-brace-empty-line-before": "never",
-		"block-closing-brace-newline-after": "always",
-		"no-missing-end-of-source-newline": true,
-		"rule-empty-line-before": [
-			"always",
-			{ "except": ["first-nested", "after-single-line-comment"] }
-		],
-		"max-empty-lines": 1,
-		"declaration-block-no-duplicate-properties": [
+        "declaration-block-no-duplicate-properties": [
 			true,
 			{ "ignore": ["consecutive-duplicates-with-different-values"] }
 		],
-		"value-list-max-empty-lines": 0,
-		"no-eol-whitespace": true,
-		"selector-class-pattern": [
-			"^[A-Z][a-z0-9]*([A-Z][a-z0-9]+)*(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(-[A-Z][a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?$",
-			{
-				"resolveNestedSelectors": true
-			}
-		],
-		"property-no-vendor-prefix": [
+        "no-empty-source": true,
+        "no-extra-semicolons": true,
+        "color-named": "never",
+        "shorthand-property-no-redundant-values": true,
+        "property-no-vendor-prefix": [
 			true,
 			{
 				"ignoreProperties": [
@@ -71,6 +23,54 @@
 				]
 			}
 		],
+		"selector-class-pattern": [
+			"^[A-Z][a-z0-9]*([A-Z][a-z0-9]+)*(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(-[A-Z][a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?(_[a-z0-9]+([A-Z][a-z0-9]+)*)?$",
+			{
+				"resolveNestedSelectors": true
+			}
+		],
+        "selector-max-empty-lines": 0,
+        "function-comma-space-after": "always",
+		"function-comma-space-before": "never",
+        "function-url-quotes": "always",
+        "number-leading-zero": "always",
+		"number-no-trailing-zeros": true,
+        "string-quotes": "double",
+        "length-zero-no-unit": true,
+        "value-keyword-case": "lower",
+        "value-list-max-empty-lines": 0,
+        "property-case": "lower",
+        "declaration-colon-space-after": "always",
+		"declaration-colon-space-before": "never",
+        "declaration-empty-line-before": [
+			"never",
+			{ "ignore": ["after-declaration", "inside-single-line-block"] }
+		],
+        "declaration-block-semicolon-newline-after": "always",
+        "declaration-block-semicolon-space-before": "never",
+        "declaration-block-trailing-semicolon": "always",
+        "block-closing-brace-empty-line-before": "never",
+        "block-closing-brace-newline-after": "always",
+		"block-closing-brace-newline-before": "always",
+        "block-opening-brace-space-before": "always",
+        "selector-type-case": "lower",
+        "selector-list-comma-newline-after": "always",
+		"selector-list-comma-newline-before": "never-multi-line",
+        "rule-empty-line-before": [
+			"always",
+			{ "except": ["first-nested", "after-single-line-comment"] }
+		],
+        "at-rule-empty-line-before": [
+			"always",
+			{
+				"except": ["first-nested"]
+			}
+		],
+        "indentation": "tab",
+        "max-empty-lines": 1,
+        "max-line-length": 80,
+        "no-eol-whitespace": true,
+        "no-missing-end-of-source-newline": true,
 		"order/properties-order": [
 			[
 				{
