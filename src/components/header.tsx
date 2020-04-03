@@ -16,7 +16,7 @@ const Header: FC<IHeaderProps> = ({ siteTitle = '' }) => {
 			<div className={header('Content')}>
 				<h1 className={header('Title')}>
 					<Link className={header('Link')} to="/">
-						{siteTitle}
+					  {siteTitle}
 					</Link>
 				</h1>
 			</div>
